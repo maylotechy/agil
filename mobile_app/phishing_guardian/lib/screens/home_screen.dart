@@ -115,7 +115,11 @@ class _HomeScreenState extends State<HomeScreen> {
         );
         setState(() {
           _isPhishing = isThreat;
-          _resultLabel = ptMatch ? 'BLACKLISTED PHISHING' : (data['ml_match'] == true ? 'PHISHING DETECTED' : 'SUSPICIOUS THREAT');
+          if (label == 'SECURE') {
+            _resultLabel = 'SECURE';
+          } else {
+            _resultLabel = ptMatch ? 'BLACKLISTED PHISHING' : (data['ml_match'] == true ? 'PHISHING DETECTED' : 'SUSPICIOUS THREAT');
+          }
           _explanation = data['explanation'] ?? 'No explanation available.';
           _phishtankMatch = ptMatch;
           _mlMatch = data['ml_match'] == true;
