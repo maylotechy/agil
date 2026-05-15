@@ -548,6 +548,29 @@ def feedback():
         return jsonify({"error": str(e)}), 500
 
 
+@app.route('/get-feedback-data', methods=['GET'])
+def get_feedback():
+    """Route to view collected feedback for thesis evaluation."""
+    # Password check
+    pwd = request.args.get('pass')
+    if pwd != 'tomi':
+        return jsonify({"error": "Unauthorized access."}), 401
+
+    if not os.path.exists("feedback_data.jsonl"):
+        return jsonify({"message": "No feedback collected yet."}), 404
+    
+    try:
+        with open("feedback_data.jsonl", "r") as f:
+            lines = f.readlines()
+        data = [json.loads(line) for line in lines]
+        return jsonify({
+            "total_count": len(data),
+            "feedback": data
+        })
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
 # ────────────────────────────────────────────────────────────────────
 #  /refresh-phishtank — manually trigger PhishTank DB refresh
 #  Returns:  {"status": "...", "url_count": int, "last_refresh": str}
