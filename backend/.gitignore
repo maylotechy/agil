@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+phishtank_db.json
+feedback_data.jsonl
+out.txt
+out2.txt
+.idea/
