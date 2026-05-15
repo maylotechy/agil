@@ -1,0 +1,122 @@
+﻿> Task :gradle:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle:compileKotlin UP-TO-DATE
+> Task :gradle:compileJava NO-SOURCE
+> Task :gradle:compileGroovy NO-SOURCE
+> Task :gradle:pluginDescriptors UP-TO-DATE
+> Task :gradle:processResources UP-TO-DATE
+> Task :gradle:classes UP-TO-DATE
+> Task :gradle:jar UP-TO-DATE
+> Task :another_telephony:preBuild UP-TO-DATE
+> Task :another_telephony:preDebugBuild UP-TO-DATE
+> Task :another_telephony:mergeDebugJniLibFolders UP-TO-DATE
+> Task :another_telephony:mergeDebugNativeLibs NO-SOURCE
+> Task :another_telephony:stripDebugDebugSymbols NO-SOURCE
+> Task :another_telephony:copyDebugJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :another_telephony:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :another_telephony:generateDebugResValues UP-TO-DATE
+> Task :another_telephony:generateDebugResources UP-TO-DATE
+> Task :another_telephony:packageDebugResources UP-TO-DATE
+> Task :another_telephony:parseDebugLocalResources UP-TO-DATE
+> Task :another_telephony:generateDebugRFile UP-TO-DATE
+> Task :another_telephony:compileDebugKotlin UP-TO-DATE
+> Task :another_telephony:extractDebugAnnotations UP-TO-DATE
+> Task :another_telephony:extractDeepLinksForAarDebug UP-TO-DATE
+> Task :another_telephony:mergeDebugShaders UP-TO-DATE
+> Task :another_telephony:compileDebugShaders NO-SOURCE
+> Task :another_telephony:generateDebugAssets UP-TO-DATE
+> Task :another_telephony:mergeDebugAssets UP-TO-DATE
+> Task :another_telephony:javaPreCompileDebug UP-TO-DATE
+> Task :another_telephony:compileDebugJavaWithJavac NO-SOURCE
+> Task :another_telephony:mergeDebugGeneratedProguardFiles UP-TO-DATE
+> Task :another_telephony:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :another_telephony:prepareDebugArtProfile UP-TO-DATE
+> Task :another_telephony:prepareLintJarForPublish UP-TO-DATE
+> Task :another_telephony:processDebugManifest UP-TO-DATE
+> Task :another_telephony:processDebugJavaRes UP-TO-DATE
+> Task :another_telephony:mergeDebugJavaResource UP-TO-DATE
+> Task :another_telephony:syncDebugLibJars UP-TO-DATE
+> Task :another_telephony:writeDebugAarMetadata UP-TO-DATE
+> Task :another_telephony:bundleDebugAar UP-TO-DATE
+> Task :another_telephony:assembleDebug UP-TO-DATE
+> Task :app:DebugMinSdkCheck
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :another_telephony:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+
+> Task :app:compileFlutterBuildDebug
+.\gradlew.bat : 
+lib/main.dart:61:5: 
+Error: No named 
+parameter with the 
+name 'initializationSe
+ttings'.
+At line:1 char:82
++ ... \phishing_guardi
+an\android'; 
+.\gradlew.bat 
+assembleDebug 2>&1 | 
+Out-F ...
++                     
+             ~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+~
+    + CategoryInfo    
+          : NotSpeci  
+  fied: (lib/main.d   
+ art:6...ationSett    
+ings'.:String) []    
+, RemoteException
+    + FullyQualifiedE 
+   rrorId : NativeCo  
+  mmandError
+ 
+    initializationSett
+ings: initializationSe
+ttings,
+    
+^^^^^^^^^^^^^^^^^^^^^^
+Target kernel_snapshot
+_program failed: 
+Exception
+
+
+> Task :app:compileFlutterBuildDebug FAILED
+
+[Incubating] Problems report is available at: file:///C:/Intelligent%20System/mobile_app/phishing_guardian/build/reports/problems/problems-report.html
+
+FAILURE: Build failed 
+with an exception.
+
+* What went wrong:
+Execution failed for 
+task ':app:compileFlut
+terBuildDebug'.
+> Process 'command 'C:
+\Flutter\flutter\bin\f
+lutter.bat'' finished 
+with non-zero exit 
+value 1
+
+* Try:
+> Run with 
+--stacktrace option 
+to get the stack 
+trace.
+> Run with --info or 
+--debug option to get 
+more log output.
+> Run with --scan to 
+get full insights.
+> Get more help at htt
+ps://help.gradle.org.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.14/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 8s
+30 actionable tasks: 2 executed, 28 up-to-date

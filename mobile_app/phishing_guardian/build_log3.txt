@@ -1,0 +1,197 @@
+﻿> Task :gradle:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle:pluginDescriptors UP-TO-DATE
+> Task :gradle:processResources
+
+> Task :gradle:compileKotlin
+w: file:///C:/Flutter/flutter/packages/flutter_tools/gradle/src/main/kotlin/FlutterPlugin.kt:11:37 'ApkVariant' is deprecated. Deprecated in Java
+w: file:///C:/Flutter/flutter/packages/flutter_tools/gradle/src/main/kotlin/FlutterPlugin.kt:609:69 'ApkVariant' is deprecated. Deprecated in Java
+w: file:///C:/Flutter/flutter/packages/flutter_tools/gradle/src/main/kotlin/plugins/PluginHandler.kt:186:64 Unchecked cast: NamedDomainObjectContainer<out BuildType> to NamedDomainObjectContainer<BuildType>
+w: file:///C:/Flutter/flutter/packages/flutter_tools/gradle/src/main/kotlin/plugins/PluginHandler.kt:187:69 Unchecked cast: NamedDomainObjectContainer<out BuildType> to NamedDomainObjectContainer<BuildType>
+
+> Task :gradle:compileJava NO-SOURCE
+> Task :gradle:compileGroovy NO-SOURCE
+> Task :gradle:classes
+> Task :gradle:jar
+> Task :another_telephony:preBuild UP-TO-DATE
+> Task :another_telephony:preDebugBuild UP-TO-DATE
+> Task :another_telephony:mergeDebugJniLibFolders UP-TO-DATE
+> Task :another_telephony:mergeDebugNativeLibs NO-SOURCE
+> Task :another_telephony:stripDebugDebugSymbols NO-SOURCE
+> Task :another_telephony:copyDebugJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :another_telephony:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :another_telephony:generateDebugResValues UP-TO-DATE
+> Task :another_telephony:generateDebugResources UP-TO-DATE
+> Task :another_telephony:packageDebugResources UP-TO-DATE
+> Task :another_telephony:parseDebugLocalResources UP-TO-DATE
+> Task :another_telephony:generateDebugRFile UP-TO-DATE
+> Task :another_telephony:extractDeepLinksForAarDebug UP-TO-DATE
+> Task :another_telephony:mergeDebugShaders UP-TO-DATE
+> Task :another_telephony:compileDebugShaders NO-SOURCE
+> Task :another_telephony:generateDebugAssets UP-TO-DATE
+> Task :another_telephony:mergeDebugAssets UP-TO-DATE
+> Task :another_telephony:javaPreCompileDebug UP-TO-DATE
+> Task :another_telephony:prepareDebugArtProfile UP-TO-DATE
+> Task :another_telephony:prepareLintJarForPublish UP-TO-DATE
+> Task :another_telephony:processDebugManifest UP-TO-DATE
+> Task :another_telephony:writeDebugAarMetadata UP-TO-DATE
+> Task :app:DebugMinSdkCheck
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:compileFlutterBuildDebug
+> Task :app:packJniLibsflutterBuildDebug
+> Task :another_telephony:compileDebugLibraryResources UP-TO-DATE
+> Task :flutter_local_notifications:preBuild UP-TO-DATE
+> Task :flutter_local_notifications:preDebugBuild UP-TO-DATE
+> Task :flutter_local_notifications:writeDebugAarMetadata UP-TO-DATE
+> Task :permission_handler_android:preBuild UP-TO-DATE
+> Task :permission_handler_android:preDebugBuild UP-TO-DATE
+> Task :permission_handler_android:writeDebugAarMetadata UP-TO-DATE
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:cleanMergeDebugAssets
+> Task :app:mergeDebugShaders UP-TO-DATE
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :flutter_local_notifications:mergeDebugShaders UP-TO-DATE
+> Task :flutter_local_notifications:compileDebugShaders NO-SOURCE
+> Task :flutter_local_notifications:generateDebugAssets UP-TO-DATE
+> Task :flutter_local_notifications:mergeDebugAssets UP-TO-DATE
+> Task :permission_handler_android:mergeDebugShaders UP-TO-DATE
+> Task :permission_handler_android:compileDebugShaders NO-SOURCE
+> Task :permission_handler_android:generateDebugAssets UP-TO-DATE
+> Task :permission_handler_android:mergeDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets
+
+> Task :another_telephony:compileDebugKotlin
+w: file:///C:/Users/tabol/AppData/Local/Pub/Cache/hosted/pub.dev/another_telephony-0.4.1/android/src/main/kotlin/com/shounakmulay/telephony/sms/SmsController.kt:154:28 'static fun getSmsManagerForSubscriptionId(p0: Int): SmsManager!' is deprecated. Deprecated in Java.
+w: file:///C:/Users/tabol/AppData/Local/Pub/Cache/hosted/pub.dev/another_telephony-0.4.1/android/src/main/kotlin/com/shounakmulay/telephony/sms/SmsController.kt:198:30 'val callState: Int' is deprecated. Deprecated in Java.
+w: file:///C:/Users/tabol/AppData/Local/Pub/Cache/hosted/pub.dev/another_telephony-0.4.1/android/src/main/kotlin/com/shounakmulay/telephony/sms/SmsController.kt:220:30 'val networkType: Int' is deprecated. Deprecated in Java.
+
+> Task :app:copyFlutterAssetsDebug
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :another_telephony:extractDebugAnnotations UP-TO-DATE
+> Task :another_telephony:compileDebugJavaWithJavac NO-SOURCE
+> Task :another_telephony:mergeDebugGeneratedProguardFiles UP-TO-DATE
+> Task :another_telephony:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :another_telephony:processDebugJavaRes UP-TO-DATE
+> Task :another_telephony:mergeDebugJavaResource UP-TO-DATE
+> Task :another_telephony:syncDebugLibJars UP-TO-DATE
+> Task :another_telephony:bundleDebugAar UP-TO-DATE
+> Task :another_telephony:assembleDebug UP-TO-DATE
+> Task :another_telephony:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :flutter_local_notifications:generateDebugResValues UP-TO-DATE
+> Task :flutter_local_notifications:generateDebugResources UP-TO-DATE
+> Task :flutter_local_notifications:packageDebugResources UP-TO-DATE
+> Task :permission_handler_android:generateDebugResValues UP-TO-DATE
+> Task :permission_handler_android:generateDebugResources UP-TO-DATE
+> Task :permission_handler_android:packageDebugResources UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :another_telephony:extractDeepLinksDebug UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :flutter_local_notifications:extractDeepLinksDebug UP-TO-DATE
+> Task :flutter_local_notifications:processDebugManifest UP-TO-DATE
+> Task :permission_handler_android:extractDeepLinksDebug UP-TO-DATE
+> Task :permission_handler_android:processDebugManifest UP-TO-DATE
+> Task :app:processDebugMainManifest UP-TO-DATE
+> Task :app:outputDebugAppLinkSettings UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+> Task :flutter_local_notifications:compileDebugLibraryResources UP-TO-DATE
+> Task :flutter_local_notifications:parseDebugLocalResources UP-TO-DATE
+> Task :flutter_local_notifications:generateDebugRFile UP-TO-DATE
+> Task :permission_handler_android:compileDebugLibraryResources UP-TO-DATE
+> Task :permission_handler_android:parseDebugLocalResources UP-TO-DATE
+> Task :permission_handler_android:generateDebugRFile UP-TO-DATE
+> Task :app:processDebugResources UP-TO-DATE
+> Task :flutter_local_notifications:javaPreCompileDebug UP-TO-DATE
+> Task :flutter_local_notifications:compileDebugJavaWithJavac
+> Task :permission_handler_android:javaPreCompileDebug UP-TO-DATE
+> Task :flutter_local_notifications:bundleLibCompileToJarDebug
+> Task :permission_handler_android:compileDebugJavaWithJavac
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :permission_handler_android:bundleLibCompileToJarDebug
+> Task :app:l8DexDesugarLibDebug UP-TO-DATE
+> Task :app:compressDebugAssets
+> Task :another_telephony:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :app:desugarDebugFileDependencies UP-TO-DATE
+> Task :flutter_local_notifications:processDebugJavaRes NO-SOURCE
+> Task :permission_handler_android:processDebugJavaRes NO-SOURCE
+> Task :permission_handler_android:bundleLibRuntimeToJarDebug
+> Task :flutter_local_notifications:bundleLibRuntimeToJarDebug
+> Task :another_telephony:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :another_telephony:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :permission_handler_android:bundleLibRuntimeToDirDebug
+> Task :app:checkDebugDuplicateClasses
+> Task :flutter_local_notifications:bundleLibRuntimeToDirDebug
+> Task :app:configureCMakeDebug[arm64-v8a]
+> Task :app:mergeExtDexDebug UP-TO-DATE
+> Task :app:buildCMakeDebug[arm64-v8a]
+> Task :app:configureCMakeDebug[armeabi-v7a]
+> Task :app:buildCMakeDebug[armeabi-v7a]
+> Task :app:configureCMakeDebug[x86_64]
+> Task :app:buildCMakeDebug[x86_64]
+> Task :app:mergeDebugJniLibFolders UP-TO-DATE
+> Task :flutter_local_notifications:mergeDebugJniLibFolders UP-TO-DATE
+> Task :flutter_local_notifications:mergeDebugNativeLibs NO-SOURCE
+> Task :flutter_local_notifications:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :permission_handler_android:mergeDebugJniLibFolders UP-TO-DATE
+> Task :permission_handler_android:mergeDebugNativeLibs NO-SOURCE
+> Task :permission_handler_android:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :app:compileDebugKotlin
+> Task :app:compileDebugJavaWithJavac
+> Task :app:dexBuilderDebug UP-TO-DATE
+> Task :app:mergeDebugNativeLibs
+> Task :app:mergeDebugGlobalSynthetics UP-TO-DATE
+> Task :app:processDebugJavaRes
+> Task :app:mergeProjectDexDebug UP-TO-DATE
+> Task :app:validateSigningDebug UP-TO-DATE
+> Task :app:writeDebugAppMetadata UP-TO-DATE
+> Task :app:writeDebugSigningConfigVersions UP-TO-DATE
+> Task :flutter_local_notifications:stripDebugDebugSymbols NO-SOURCE
+> Task :flutter_local_notifications:copyDebugJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :flutter_local_notifications:extractDebugAnnotations UP-TO-DATE
+> Task :flutter_local_notifications:extractDeepLinksForAarDebug UP-TO-DATE
+> Task :flutter_local_notifications:mergeDebugGeneratedProguardFiles UP-TO-DATE
+> Task :flutter_local_notifications:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :flutter_local_notifications:prepareDebugArtProfile UP-TO-DATE
+> Task :flutter_local_notifications:prepareLintJarForPublish UP-TO-DATE
+> Task :flutter_local_notifications:mergeDebugJavaResource UP-TO-DATE
+> Task :flutter_local_notifications:syncDebugLibJars
+> Task :flutter_local_notifications:bundleDebugAar
+> Task :flutter_local_notifications:assembleDebug
+> Task :permission_handler_android:stripDebugDebugSymbols NO-SOURCE
+> Task :permission_handler_android:copyDebugJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :permission_handler_android:extractDebugAnnotations UP-TO-DATE
+> Task :permission_handler_android:extractDeepLinksForAarDebug UP-TO-DATE
+> Task :permission_handler_android:mergeDebugGeneratedProguardFiles UP-TO-DATE
+> Task :permission_handler_android:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :permission_handler_android:prepareDebugArtProfile UP-TO-DATE
+> Task :permission_handler_android:prepareLintJarForPublish UP-TO-DATE
+> Task :permission_handler_android:mergeDebugJavaResource UP-TO-DATE
+> Task :app:mergeLibDexDebug
+> Task :permission_handler_android:syncDebugLibJars
+> Task :permission_handler_android:bundleDebugAar
+> Task :permission_handler_android:assembleDebug
+> Task :app:stripDebugDebugSymbols
+> Task :app:mergeDebugJavaResource
+> Task :app:packageDebug
+> Task :app:createDebugApkListingFileRedirect UP-TO-DATE
+> Task :app:assembleDebug
+w: Detected multiple Kotlin daemon sessions at 
+
+[Incubating] Problems report is available at: file:///C:/Intelligent%20System/mobile_app/phishing_guardian/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.14/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 1m 24s
+139 actionable tasks: 39 executed, 100 up-to-date

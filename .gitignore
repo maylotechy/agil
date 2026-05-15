@@ -1,0 +1,41 @@
+# Flutter/Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+ios/Flutter/Flutter.podspec
+ios/Flutter/App.framework
+ios/Flutter/App.podspec
+ios/Flutter/App.xcframework
+ios/.generated/
+**/*.lib
+**/*.exp
+**/*.pdb
+**/*.exe
+**/*.apk
+**/*.aab
+
+# Python/Flask
+**/__pycache__/
+**/*.pyc
+**/.venv/
+**/phishtank_db.json
+**/feedback_data.jsonl
+backend/out.txt
+backend/out2.txt
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# System
+.DS_Store
+Thumbs.db
