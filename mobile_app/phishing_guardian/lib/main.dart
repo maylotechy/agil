@@ -14,7 +14,7 @@ import 'screens/main_shell.dart';
 final FlutterLocalNotificationsPlugin agilNotifications =
     FlutterLocalNotificationsPlugin();
 
-const String kBaseUrl = 'http://192.168.254.118:5000';
+const String kBaseUrl = 'https://agil-1.onrender.com';
 
 const kBg        = Color(0xFF0F0F1A);
 const kSurface   = Color(0xFF1A1A2E);
